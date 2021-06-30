@@ -114,8 +114,8 @@ async function main(){
             }
             console.log("\n")
             position_number = readline.question(colors.FgGreen + "Please insert the number of the position that you would like to delete: ")
-            
-            await Sector.deleteOne({_id:positions[parseInt(position_number)]._id}).then(()=>{
+            console.log(positions[parseInt(position_number)]._id)
+            await Position.deleteOne({_id:positions[parseInt(position_number)]._id}).then(()=>{
                 console.log(colors.FgGreen + "Success")
             }).catch(err => console.log(colors.FgRed + "Error " + err))
 

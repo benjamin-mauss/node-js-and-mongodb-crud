@@ -1,6 +1,6 @@
 
 const mongoose = require("mongoose")
-const Position = mongoose.model('positions', new mongoose.Schema( // cargo
+const Position = mongoose.model('positions', new mongoose.Schema( // ROLE
     { 
         name: {
             type:String,
@@ -10,7 +10,7 @@ const Position = mongoose.model('positions', new mongoose.Schema( // cargo
             type:Number,
             required:true
         }
-            // salary
+        
     }
 ));
 

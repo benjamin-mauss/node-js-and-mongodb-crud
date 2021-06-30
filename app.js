@@ -154,7 +154,7 @@ async function main(){
                 console.log(emp + " - " + employees[emp].name + " - Position: " + employees[emp].position.name + " - Sector: " + employees[emp].sector.name)
             }
             console.log("\n")
-        }else if(option == '9'){ // exit
+        }else if(option == '9'){ // exit 
             break
         }
     }

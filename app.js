@@ -38,7 +38,7 @@ async function main(){
             answer = readline.question(colors.FgGreen + "Please insert the name of the sector that you would like to include:")
             newSector = {
                 name:answer
-            }
+            } 
             await new Sector(newSector).save().then(data => {
                 console.log(colors.FgGreen + "Success");
             }).catch(err => console.log(colors.FgRed + "Error: " + err))

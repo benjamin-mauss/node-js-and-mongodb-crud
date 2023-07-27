@@ -7,7 +7,7 @@ It simulates a company's database, with employees, roles and sectors.
 
 ## Setting up
 With node js and npm installed, run the commands:
-`git clone gato-louco-cv/node-js-and-mongodb-crud`
+`git clone benjamin-mauss/node-js-and-mongodb-crud`
 
 `cd node-js-and-mongodb-crud`
 
